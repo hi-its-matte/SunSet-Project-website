@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SunSet Project — Python-based</title>
+    <meta name="description" content="SunSet Project - a Python-based experimental language. Official site and quick example." />
+    
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#">SunSet<span class="accent">.</span></a>
+            <nav class="nav">
+                <a href="#install">Install</a>
+                <a href="#usage">Example</a>
+                <a href="#contrib">Contribute</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>SunSet Project</h1>
+                <p class="tagline">Small programming language, still in development.</p>
+                <div class="ctas">
+                    <a class="btn primary" href="#install">Get Started</a>
+                    <a class="btn ghost" href="#usage">See Example</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="install" class="container install">
+            <h2>Installation</h2>
+            <p>Make sure you have Python installed on your PC. Download the code from GitHub. Once downloaded, navigate to the download directory:</p>
+            <pre class="code-block"><code>cd /path/to/code/</code></pre>
+        </section>
+        <section id="install" class="container install">
+            <p>Repository Link:</p>
+            <pre class="code-block"><code>https://github.com/hi-its-matte/Project-SunSet/</code></pre>
+        </section>
+
+        <section id="usage" class="container usage">
+            <h2>Quick Example</h2>
+            <pre class="code-block"><code class="lang-py">let x = "10"
+let y = "5"
+print "x" + "y"
+
+if "x" = "10":
+    print "it's ten"
+else:
+    print "it's not ten"
+</code></pre>
+            <p>Currently, Project Sunset supports variable assignments, printing, string concatenation, and basic if/else conditions.</p>
+        </section>
+
+        <section id="contrib" class="container contrib">
+            <h2>Contribute</h2>
+            <p>SunSet is open-source. Submit a pull request or report issues on GitHub.</p>
+            <div class="contrib-grid">
+                <div class="contrib-card">
+                    <strong>Report Bugs</strong>
+                    <p>Use the repository tracker for bug reports or feature requests.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> SunSet Project</div>
+            <a href="mailto:official@mattedev.com">E-Mail</a>
+            <a href="legal.html">Terms Of Service And Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script>
+        // Simple utility to update the year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
